@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  background: url(../images/fon.jpg) center / cover no-repeat;
+  min-height: 100vh;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.container {
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: 1px solid #0d161b;
+}
+
+h1 {
+  margin: 0;
+}
+
+.is-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.breed-select {
+  display: none;
+  max-width: 400px;
+  margin: auto;
+}
+
+.loader {
+  font-size: 0;
+  position: relative;
+  margin: 20% auto;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat-info {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-color: #e5ebf3;
+  border: 1px solid #0d161b;
+}
+
+.box-img {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 400px;
+}
